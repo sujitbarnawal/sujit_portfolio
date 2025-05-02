@@ -49,6 +49,7 @@ import fooddelLogo from "./assets/work_logo/fooddel.png";
 import mernauthLogo from "./assets/work_logo/mernauth.png";
 import clothdelLogo from "./assets/work_logo/clothestore.png"
 import jobSeekLogo from "./assets/work_logo/jobportal.png"
+import netflixLogo from "./assets/work_logo/netflix.png"
 
 export const SkillsInfo = [
   {
@@ -193,7 +194,7 @@ export const projects = [
     description:
       "JobSeek is a modern job-hunting platform designed to bridge the gap between ambitious job seekers and forward-thinking employers. Whether you're a fresh graduate stepping into the workforce or a seasoned professional looking for your next big opportunity, JobSeek helps you discover, apply, and land your dream job with ease.",
     image: jobSeekLogo,
-    tags: ["React JS", "NodeJS", "HTML", "CSS", "JavaScript", "ExpressJS","Shadcn UI",],
+    tags: ["React JS", "NodeJS", "JavaScript", "ExpressJS","Shadcn UI","MongoDB","Zustand","TailwindCSS"],
     github: "https://github.com/sujitbarnawal/JobPortal",
     webapp: "https://jobportal-frontend-p4dr.onrender.com/",
   },
@@ -210,6 +211,7 @@ export const projects = [
       "React JS",
       "Express JS",
       "Node JS",
+      "MongoDB",
     ],
     github: "https://github.com/sujitbarnawal/Food-Delivery",
     webapp: "https://mithomitho-frontend.onrender.com",
@@ -220,7 +222,7 @@ export const projects = [
     description:
       "Mern Authentication is a simple implementation of login,signup,forgot password and reset password using mern stack",
     image: mernauthLogo,
-    tags: ["React JS", "NodeJS", "HTML", "CSS", "JavaScript", "ExpressJS"],
+    tags: ["React JS", "NodeJS", "HTML", "CSS", "JavaScript", "ExpressJS","MongoDB"],
     github: "https://github.com/sujitbarnawal/MernAuthenticationApp",
     webapp: "https://mernauthenticationapp-frontend.onrender.com/",
   },
@@ -230,8 +232,18 @@ export const projects = [
     description:
       "FashionNepal, an online clothing delivery application designed to connect users with trending clothes. It aims to provide a user-friendly, efficient, and secure platform for customers to browse options, place orders, and track deliveries seamlessly.",
     image: clothdelLogo,
-    tags: ["React JS", "NodeJS", "HTML", "CSS", "JavaScript", "ExpressJS"],
+    tags: ["React JS", "NodeJS", "JavaScript", "ExpressJS","MongoDB","Zustand","TailwindCSS"],
     github: "https://github.com/sujitbarnawal/FashionNepal",
     webapp: "https://fashionnepal-frontend.onrender.com/",
+  },
+  {
+    id: 4,
+    title: "Netflix ",
+    description:
+      "Netflix, It is a clone of netflix, not exactly same I have my own assumptions of pages(without subscription feature)",
+    image: netflixLogo,
+    tags: ["React JS", "NodeJS", "JavaScript", "ExpressJS","MongoDB","Material UI","Zustand","TailwindCSS","The Movie Database"],
+    github: "https://github.com/sujitbarnawal/Netflix",
+    webapp: "https://netflix-frontend-2skz.onrender.com/",
   },
 ];
